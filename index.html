@@ -7,8 +7,58 @@
     <script src="js/scripts.js"></script>
     <title>Language Selector</title>
   </head>
-
+<!-- Rust, JavaScript, Python -->
   <body>
-    
+    <div class="container">
+      <div class="questions">
+        <form id="languageQuiz">
+          <p>Which is your favorite foodstuff?</p>
+          <select class="form-control" id="foodstuff">
+            <option disabled selected>-- select an option --</option>
+            <option value="javascript">jackfruit</option>
+            <option value="python">potato</option>
+            <option value="rust">rutabaga</option>
+          </select>
+
+          <p>Which is your favorite gemstone?</p>
+          <select class="form-control" id="gemstone">
+            <option disabled selected>-- select an option --</option>
+            <option value="rust">ruby</option>
+            <option value="python">peridot</option>
+            <option value="javascript">jade</option>
+          </select>
+
+          <p>Which is your favorite color?</p>
+          <select class="form-control" id="color">
+            <option disabled selected>-- select an option --</option>
+            <option value="python">phlox</option>
+            <option value="rust">rufous</option>
+            <option value="javascript">jonquil</option>
+          </select>
+
+          <p>Which is your favorite letter?</p>
+          <select class="form-control" id="letter">
+            <option disabled selected>-- select an option --</option>
+            <option value="javascript">J</option>
+            <option value="rust">R</option>
+            <option value="python">P</option>
+          </select>
+
+          <p>Which is your favorite flower?</p>
+          <select class="form-control" id="flower">
+            <option disabled selected>-- select an option --</option>
+            <option value="rust">Ranunculus</option>
+            <option value="javascript">Jaborosa</option>
+            <option value="python">peonie</option>
+          </select>
+
+          <button type="submit" class="btn">What language is for me?</button>
+        </form>
+      </div>
+
+      <div class="responce">
+        <p>I have concluded that the best language for you to try learining is <span class="language"></span>.</p>
+      </div>
+    </div>
   </body>
 </html>
