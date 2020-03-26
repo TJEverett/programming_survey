@@ -1,26 +1,20 @@
-# _{Application Name}_
+# Programming Language Survey
 
-#### _{Brief description of application}, {Date of current version}_
+#### A survey to pick a programming language baised on interests, 03/26/2020
 
 #### By _**Tristen Everett**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+This website starts out as a survey asking 5 questions about the user's prefrences and then depending on their answers will tell them which programming language it feels is the best fit for them.  The website will pick between JavaScript, Rust, and Python when giving suggestions.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
-## Known Bugs
-
-Aplication is still in development.
+1. Click the "Clone or download" button.
+2. Select the "Download ZIP" option.
+3. Select "save as" and save file to your desktop.
+4. Go to desktop and right-click the downloaded file and tell it to extract all.
+5. Open the newly extracted file and launch the index.html file with your prefered browser.
 
 ## Technologies Used
 
