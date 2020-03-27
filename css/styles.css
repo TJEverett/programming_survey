@@ -1,3 +1,27 @@
+.jumbotron{
+  text-align: center;
+  background-color: rgb(255, 104, 134);
+}
+
+.container{
+  background-color: #ff93ff;
+  border: 5px solid cyan;
+}
+
+.questions{
+  height: 500px;
+}
+
 .responce{
   display: none;
+  height: 500px;
+  text-align: center;
+}
+
+p{
+  font-weight: bold;
+}
+
+body{
+  background-color: rgb(255, 104, 134);
 }
