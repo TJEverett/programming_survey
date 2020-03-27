@@ -9,8 +9,12 @@
   </head>
 
   <body>
+    <div class="jumbotron">
+      <h1>Programming Language Selector</h1>
+    </div>
     <div class="container">
       <div class="questions">
+        <h3>Please answer these questions to find out what programming language you would be most successful using.</h3>
         <form id="languageQuiz">
           <p>Which is your favorite foodstuff?</p>
           <select class="form-control" id="foodstuff">
@@ -20,6 +24,7 @@
             <option value="rust">rutabaga</option>
           </select>
 
+          <p></p>
           <p>Which is your favorite gemstone?</p>
           <select class="form-control" id="gemstone">
             <option disabled selected>-- select an option --</option>
@@ -28,6 +33,7 @@
             <option value="javascript">jade</option>
           </select>
 
+          <p></p>
           <p>Which is your favorite color?</p>
           <select class="form-control" id="color">
             <option disabled selected>-- select an option --</option>
@@ -36,6 +42,7 @@
             <option value="javascript">jonquil</option>
           </select>
 
+          <p></p>
           <p>Which is your favorite letter?</p>
           <select class="form-control" id="letter">
             <option disabled selected>-- select an option --</option>
@@ -44,6 +51,7 @@
             <option value="python">P</option>
           </select>
 
+          <p></p>
           <p>Which is your favorite flower?</p>
           <select class="form-control" id="flower">
             <option disabled selected>-- select an option --</option>
@@ -52,12 +60,13 @@
             <option value="python">peonie</option>
           </select>
 
+          <p></p>
           <button type="submit" class="btn">What language is for me?</button>
         </form>
       </div>
 
       <div class="responce">
-        <p>I have concluded that the best language for you to try learining is <span class="language"></span>.</p>
+        <h4>I have concluded that the best language for you to try learining is <span class="language"></span>.</h4>
       </div>
     </div>
   </body>
